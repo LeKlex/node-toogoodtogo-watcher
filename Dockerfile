@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM arm32v7/node
 WORKDIR /home/node/app
 COPY package*.json ./
 RUN npm install
